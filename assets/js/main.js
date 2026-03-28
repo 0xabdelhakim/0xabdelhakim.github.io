@@ -232,6 +232,12 @@
         card.classList.add("entry-card-no-media");
       }
 
+      if (defaultType === "Publication") {
+        card.classList.add("entry-card-publication");
+      } else {
+        card.classList.add("entry-card-project");
+      }
+
       if (entry.abstract) {
         abstract.textContent = entry.abstract;
       } else {

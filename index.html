@@ -39,6 +39,12 @@
     />
     <link rel="canonical" href="https://0xabdelhakim.github.io/" />
     <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
     <link rel="preload" href="assets/css/styles.css" as="style" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
@@ -65,11 +71,8 @@
         </button>
 
         <nav class="site-nav" id="site-nav" aria-label="Primary">
-          <a href="#about">About</a>
-          <a href="#publications">Publications</a>
-          <a href="#projects">Projects</a>
           <a href="#news">News</a>
-          <a href="#contact">Contact</a>
+          <a href="#publications">Research</a>
         </nav>
       </div>
     </header>
@@ -137,89 +140,83 @@
         </div>
       </section>
 
-      <section class="section section-subtle" id="about">
+      <section class="section" id="about">
         <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">About</p>
-            <h2>Research focus and technical profile</h2>
-            <p>
-              A concise overview of the research questions, methods, and technical habits that
-              currently define my work.
-            </p>
+          <div class="section-panel reveal">
+            <div class="section-heading section-heading-tight">
+              <h2>My current...</h2>
+            </div>
+            <div class="info-grid" data-info-cards></div>
           </div>
-
-          <div class="info-grid" data-info-cards></div>
-        </div>
-      </section>
-
-      <section class="section" id="publications">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Research</p>
-            <h2>Selected publications</h2>
-            <p>
-              Papers, preprints, and research outputs in a compact academic format.
-            </p>
-          </div>
-
-          <div class="card-grid card-grid-publications" data-publication-list></div>
-          <p class="section-empty reveal is-hidden" data-publication-empty>
-            Publications will appear here once entries are added to the content file.
-          </p>
-        </div>
-      </section>
-
-      <section class="section section-subtle" id="projects">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Engineering</p>
-            <h2>Selected projects</h2>
-            <p>
-              Research-adjacent engineering work, systems prototypes, and implementation-focused
-              builds.
-            </p>
-          </div>
-
-          <div class="card-grid" data-project-list></div>
-          <p class="section-empty reveal is-hidden" data-project-empty>
-            Projects will appear here once entries are added to the content file.
-          </p>
         </div>
       </section>
 
       <section class="section" id="news">
         <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Updates</p>
-            <h2>News &amp; updates</h2>
-            <p>Short reverse-chronological updates for talks, milestones, releases, and current work.</p>
-          </div>
+          <div class="section-panel reveal">
+            <div class="section-heading section-heading-tight">
+              <h2>News &amp; updates</h2>
+            </div>
 
-          <div class="timeline" data-news-list></div>
-          <p class="section-empty reveal is-hidden" data-news-empty>
-            Add news items in the content file to populate this section.
-          </p>
+            <div class="timeline" data-news-list></div>
+            <p class="section-empty is-hidden" data-news-empty>
+              Add news items in the content file to populate this section.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="publications">
+        <div class="container">
+          <div class="section-panel reveal">
+            <div class="section-heading section-heading-tight">
+              <h2>Research</h2>
+              <p>Selected publications and current work.</p>
+            </div>
+
+            <div class="card-grid card-grid-publications" data-publication-list></div>
+            <p class="section-empty is-hidden" data-publication-empty>
+              Publications will appear here once entries are added to the content file.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-panel reveal">
+            <div class="section-heading section-heading-tight">
+              <h2>Projects</h2>
+              <p>Engineering work, systems prototypes, and implementation-oriented builds.</p>
+            </div>
+
+            <div class="card-grid" data-project-list></div>
+            <p class="section-empty is-hidden" data-project-empty>
+              Projects will appear here once entries are added to the content file.
+            </p>
+          </div>
         </div>
       </section>
 
       <section class="section" id="contact">
         <div class="container">
-          <div class="contact-card reveal">
-            <div>
-              <p class="eyebrow">Contact</p>
-              <h2>Open to thoughtful research conversations and technically serious collaborations.</h2>
-              <p data-contact-copy>
-                If your work intersects with medical imaging, MRI reconstruction, deep learning,
-                optimization, or reliable software systems for research, I would be glad to hear
-                from you.
-              </p>
-            </div>
+          <div class="section-panel reveal">
+            <div class="contact-card">
+              <div>
+                <h2>Contact</h2>
+                <p data-contact-copy>
+                  If your work intersects with medical imaging, MRI reconstruction, deep learning,
+                  optimization, or reliable software systems for research, I would be glad to hear
+                  from you.
+                </p>
+              </div>
 
-            <div class="contact-actions-wrap">
-              <a class="button button-primary" data-email-link-secondary href="mailto:hello@example.com"
-                >Get in touch</a
-              >
-              <ul class="social-list social-list-compact" data-social-links-secondary></ul>
+              <div class="contact-actions-wrap">
+                <a class="button button-primary" data-email-link-secondary href="mailto:hello@example.com"
+                  >Get in touch</a
+                >
+                <ul class="social-list social-list-compact" data-social-links-secondary></ul>
+              </div>
             </div>
           </div>
         </div>
@@ -249,6 +246,7 @@
       <article class="timeline-item reveal">
         <p class="timeline-date"></p>
         <div class="timeline-content">
+          <span class="timeline-dot" aria-hidden="true"></span>
           <p class="timeline-text"></p>
         </div>
       </article>
