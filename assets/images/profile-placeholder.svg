@@ -1,0 +1,13 @@
+<svg width="880" height="1040" viewBox="0 0 880 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="1040" rx="48" fill="#E8DCC8"/>
+  <rect x="78" y="76" width="724" height="888" rx="36" fill="#F8F4EC"/>
+  <circle cx="440" cy="356" r="150" fill="#D4B896"/>
+  <path d="M244 825C256 659.247 335.415 576 440 576C544.585 576 624 659.247 636 825" fill="#C09A70"/>
+  <path d="M291 361C291 278.71 357.71 212 440 212C522.29 212 589 278.71 589 361V395C589 477.29 522.29 544 440 544C357.71 544 291 477.29 291 395V361Z" fill="#B68657"/>
+  <circle cx="385" cy="344" r="12" fill="#2B2018"/>
+  <circle cx="495" cy="344" r="12" fill="#2B2018"/>
+  <path d="M394 430C418.667 449.333 461.333 449.333 486 430" stroke="#2B2018" stroke-width="16" stroke-linecap="round"/>
+  <path d="M320 284C349.475 221.793 415.435 180 491.153 180C563.482 180 626.947 218.117 658 275.269C633.926 232.565 589.445 204 538.292 204C497.22 204 460.461 222.408 435.659 251.435C415.437 228.291 385.629 214 352.486 214C321.828 214 294.007 226.234 273 246.114C288.545 230.898 304.374 235.015 320 284Z" fill="#7A5433"/>
+  <path d="M126 931H754" stroke="#B68657" stroke-width="10" stroke-linecap="round" stroke-dasharray="1 28"/>
+  <text x="440" y="944" text-anchor="middle" fill="#6C4A2D" font-family="Georgia, serif" font-size="38" letter-spacing="5">PROFILE IMAGE PLACEHOLDER</text>
+</svg>

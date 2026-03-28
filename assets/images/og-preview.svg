@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F7F3EC"/>
+  <rect x="34" y="34" width="1132" height="562" rx="28" fill="#FFFDF9" stroke="#E3D8CA"/>
+  <path d="M100 122H445" stroke="#6C4F38" stroke-width="8" stroke-linecap="round"/>
+  <path d="M100 178H714" stroke="#171513" stroke-width="58" stroke-linecap="round"/>
+  <path d="M100 266H744" stroke="#4F4A43" stroke-width="18" stroke-linecap="round"/>
+  <path d="M100 314H816" stroke="#7A7166" stroke-width="18" stroke-linecap="round"/>
+  <rect x="100" y="400" width="206" height="52" rx="26" fill="#171513"/>
+  <rect x="322" y="400" width="232" height="52" rx="26" fill="#F2ECE1" stroke="#D9CEBF"/>
+  <rect x="822" y="116" width="246" height="360" rx="28" fill="#EFE6D7"/>
+  <circle cx="945" cy="223" r="76" fill="#D9C2A4"/>
+  <path d="M860 420C872 330.998 915.726 287 945 287C974.274 287 1018 330.998 1030 420" fill="#C6A075"/>
+  <path d="M876 227C876 188.892 906.892 158 945 158C983.108 158 1014 188.892 1014 227V247C1014 285.108 983.108 316 945 316C906.892 316 876 285.108 876 247V227Z" fill="#B68453"/>
+  <path d="M876 500H1014" stroke="#B3906B" stroke-width="8" stroke-linecap="round" stroke-dasharray="1 24"/>
+  <text x="100" y="102" fill="#6C4F38" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="6">PHD STUDENT • RESEARCHER • ENGINEER</text>
+  <text x="100" y="201" fill="#171513" font-family="Georgia, serif" font-size="74" font-weight="700">Abdelhakim Lasri</text>
+  <text x="100" y="263" fill="#4F4A43" font-family="Arial, sans-serif" font-size="30">Medical imaging, MRI reconstruction, deep learning,</text>
+  <text x="100" y="304" fill="#4F4A43" font-family="Arial, sans-serif" font-size="30">evolutionary algorithms, and rigorous research engineering.</text>
+</svg>
