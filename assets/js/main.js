@@ -46,6 +46,7 @@
 
   function populateHero() {
     select("[data-site-name]").textContent = site.name;
+    select("[data-affiliation]").textContent = site.affiliation || "";
     select("[data-name]").textContent = site.name;
     select("[data-title-prefix]").textContent = site.title;
     select("[data-role]").textContent = site.role;
@@ -80,21 +81,16 @@
     }
   }
 
-  function renderHeroFacts() {
-    const root = select("[data-hero-facts]");
-    const template = select("#fact-item-template");
+  function renderBio() {
+    const root = select("[data-bio]");
+    const paragraphs = (site.bio || []).filter(Boolean);
 
-    if (!site.heroFacts || !site.heroFacts.length) {
+    if (!paragraphs.length) {
       root.remove();
       return;
     }
 
-    site.heroFacts.forEach((fact) => {
-      const node = template.content.cloneNode(true);
-      node.querySelector(".hero-fact-label").textContent = fact.label;
-      node.querySelector(".hero-fact-value").textContent = fact.value;
-      root.appendChild(node);
-    });
+    root.innerHTML = paragraphs.map((text) => `<p>${text}</p>`).join("");
   }
 
   function renderSocialLinks(selector) {
@@ -363,7 +359,7 @@
 
   updateMetadata();
   populateHero();
-  renderHeroFacts();
+  renderBio();
   renderSocialLinks("[data-social-links]");
   renderSocialLinks("[data-social-links-secondary]");
   renderInfoCards();

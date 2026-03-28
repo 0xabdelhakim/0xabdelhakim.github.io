@@ -4,11 +4,16 @@ window.SITE_CONTENT = {
     // Replace with your live GitHub Pages URL or custom domain.
     url: "https://0xabdelhakim.github.io/",
     name: "Abdelhakim Lasri",
+    affiliation: "PhD student in Artificial Intelligence",
     title: "PhD Student • Researcher • Engineer",
     role:
       "I build AI methods for medical imaging, with a focus on MRI reconstruction, deep learning, and optimization-informed modeling.",
     intro:
       "I work at the intersection of academic research and technical implementation. My interests include image reconstruction, representation learning, optimization, and building dependable software systems that support serious machine learning research.",
+    bio: [
+      "I am a PhD student in Artificial Intelligence working on medical imaging, MRI reconstruction, deep learning, and optimization-informed modeling.",
+      "My broader interests include research engineering, backend systems, and technically grounded work around reliable software and security-aware AI infrastructure.",
+    ],
     email: "abdelhakim@example.com",
     cvUrl: "#",
     profileImage: "assets/images/profile-placeholder.svg",
@@ -22,11 +27,6 @@ window.SITE_CONTENT = {
       "I am especially interested in collaborations around medical imaging, MRI reconstruction, deep learning, optimization, and research-oriented software engineering. I am also happy to connect on backend systems, infrastructure, and cybersecurity-adjacent technical work.",
     footerTagline: "AI Researcher & Engineer",
     lastUpdated: "March 28, 2026",
-    heroFacts: [
-      { label: "Research", value: "Medical imaging and MRI reconstruction" },
-      { label: "Methods", value: "Deep learning and evolutionary algorithms" },
-      { label: "Technical style", value: "Systems-minded, backend-oriented, implementation focused" },
-    ],
     socialLinks: [
       { label: "GitHub", url: "https://github.com/0xabdelhakim" },
       { label: "LinkedIn", url: "https://www.linkedin.com/" },
